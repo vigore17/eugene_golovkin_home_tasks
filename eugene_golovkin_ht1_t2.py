@@ -1,5 +1,4 @@
 # Вариант b
-
 def find_total(num):
     sum = 0
     while (num != 0):
