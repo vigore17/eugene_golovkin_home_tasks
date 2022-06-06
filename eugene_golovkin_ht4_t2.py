@@ -7,7 +7,3 @@ def currency_rates(pare):
 
     native_currency = currency_page[currency_page.find('<Value>', currency_page.find(pare)) + 7:currency_page.find('</Value>', currency_page.find(pare))]
     return f"{native_currency}"
-
-
-
-
